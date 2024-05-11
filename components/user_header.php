@@ -8,7 +8,7 @@
             <a href="order.php">order</a>
             <a href="contact.php">contact us</a>
         </nav>
-        <form action="" method="POST" class="search-form">
+        <form action="search_product.php" method="POST" class="search-form">
             <input type="text" name="search_product" placeholder="search product..." required maxlength="100">
             <button type="submit" class="bx bx-search-alt-2" id="search_product_btn"></button>
         </form>
